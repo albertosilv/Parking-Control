@@ -27,4 +27,6 @@ public class ParkingSpotService {
     }
 
 
+    public Object findAll(Pageable pageable) {
+    }
 }
