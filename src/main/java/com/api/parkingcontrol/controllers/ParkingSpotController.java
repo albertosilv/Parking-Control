@@ -4,8 +4,10 @@ import com.api.parkingcontrol.models.ParkingSpotModel;
 import com.api.parkingcontrol.services.ParkingSpotService;
 import com.api.parkingcontrol.dtos.ParkingSpotDTO;
 import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Sort;
 import org.springframework.data.web.PageableDefault;
 import org.springframework.http.HttpStatus;
+import org.springframework.data.domain.Pageable;
 
 
 import jakarta.validation.Valid;
